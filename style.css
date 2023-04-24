@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color: #A6CFED;
+}
+
+.button {
+    border-radius: 25px;
+    max-width: 200px;
+    height: 75px;
+    line-height: 75px;
+    transition: 0.2s;
+}
+
+.button:hover {
+    box-shadow: 1px 1px 10px #666;
+    transform: scale(110%);
+    transition: 0.2s;
+}
+
+body {
+    zoom: 170%;
+    overflow: hidden;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
