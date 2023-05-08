@@ -10,4 +10,21 @@ Daarnaast hebben medewerkers toegang tot een bedieningspaneel achter de balie of
 ## Gebruikte componenten
 
 ##### ESP8266
-test tekstje
+De ESP8266 is een krachtige en veelzijdige microcontroller gebaseerd op de ESP8266-chip, die wordt gebruikt voor het verbinden met Wi-Fi-netwerken en het uitvoeren van taken zoals het verzenden en ontvangen van gegevens via het internet.
+
+#### Mini PC (Raspberry Pi)
+Mini PC's zoals de Raspberry Pi kunnen worden gebruikt om complexere taken uit te voeren, zoals het aansturen van LED-panelen, het uitvoeren van webtoepassingen, het verwerken van gegevens en het communiceren met andere apparaten via netwerkverbindingen.
+
+#### NeoPixel LED-paneel
+Een NeoPixel LED-paneel is een LED-paneel dat gebruikmaakt van NeoPixel-LED's, die individueel adresseerbaar zijn en kunnen worden aangestuurd met behulp van een digitaal signaal. 
+
+NeoPixel LED's zijn zeer helder, energiezuinig en kunnen in verschillende kleuren worden weergegeven.
+
+#### Samenhang
+De ESP8266 kan worden geprogrammeerd om de status van het LED-paneel te controleren en gegevens te ontvangen van de mini PC zoals de Raspberry Pi.
+
+De mini PC kan fungeren als een server waarop de logica voor het begeleidingssysteem kan worden uitgevoerd, zoals het verwerken van gebruikersinvoer van de panelen, het aansturen van de LED-panelen en het beheren van de communicatie tussen de verschillende componenten.
+
+Het NeoPixel LED-paneel kan worden aangesloten op de ESP8266 of de mini PC, en de LED's kunnen individueel worden aangestuurd om de gewenste kleur en helderheid weer te geven op basis van de ontvangen gegevens.
+
+Door de juiste programmering en communicatie tussen de ESP8266, mini PC en NeoPixel LED-panelen kunnen bezoekers worden begeleid naar de juiste zone in de bibliotheek door middel van de verlichte zones op het LED-paneel, zoals beschreven in het concept.
