@@ -1,4 +1,4 @@
-# Boekenzoeker
+# Boekenzoeker Project
 
 ## Beschrijving
 Boekenzoeker is een innovatief concept dat is ontwikkeld om bezoekers van een bibliotheek te begeleiden bij het vinden van hun gewenste boeken op een eenvoudige en intuïtieve manier. Het concept maakt gebruik van overzichtelijke panelen die bezoekers kunnen gebruiken om hun gewenste zone aan te geven. Wanneer een bezoeker een bepaalde zone selecteert, zal er een lamp boven die zone gaan branden met een unieke kleur voor deze bezoeker, waardoor het voor hem/haar makkelijker wordt om de juiste boeken te vinden.
@@ -28,3 +28,16 @@ De mini PC kan fungeren als een server waarop de logica voor het begeleidingssys
 Het NeoPixel LED-paneel kan worden aangesloten op de ESP8266 of de mini PC, en de LED's kunnen individueel worden aangestuurd om de gewenste kleur en helderheid weer te geven op basis van de ontvangen gegevens.
 
 Door de juiste programmering en communicatie tussen de ESP8266, mini PC en NeoPixel LED-panelen kunnen bezoekers worden begeleid naar de juiste zone in de bibliotheek door middel van de verlichte zones op het LED-paneel, zoals beschreven in het concept.
+
+## Programmeertalen
+#### C/C++
+Populaire programmeertalen die vaak worden gebruikt voor het programmeren van microcontrollers zoals ESP8266. Ze kunnen worden gebruikt voor het schrijven van firmware voor de ESP8266 en het aansturen van LED-panelen.
+
+#### Python
+Python kan worden gebruikt voor het implementeren van logica op de mini PC, zoals het verwerken van gebruikersinvoer, communicatie met de ESP8266 en aansturing van het LED-paneel.
+
+#### JavaScript
+Een veel gebruikte programmeertaal die vaak wordt gebruikt voor webontwikkeling. Kan worden gebruikt voor het implementeren van logica aan de serverkant.
+
+#### HTML/CSS
+HTML en CSS kan nuttig zijn voor het ontwerpen en bouwen van de gebruikersinterface als het concept een webgebaseerde interface heeft voor gebruikersinvoer en -weergave.
