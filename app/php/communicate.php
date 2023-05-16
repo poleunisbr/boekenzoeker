@@ -12,10 +12,8 @@ require_once '../../vendor/autoload.php';
 require_once 'config.php';
 
 //Create a new instance of the MqttClient
-$server = "10.0.30.40";
-$port     = 1883;
-$clientId = 'webserver';
-$mqtt = new \PhpMqtt\Client\MqttClient($server, $port, $clientId);
+$clientId = 'boekenzoekerInterface';
+$mqtt = new \PhpMqtt\Client\MqttClient($mqttServer, $clientId);
 
 // Get the lightID from the post value
 $lightID = $_POST["lightID"];
@@ -62,6 +60,7 @@ if ($result->num_rows > 0) {
         $script_path = '/opt/boekenzoeker/turn_off.sh';
         // Address can be injected with scripts so we need to escape it
         $address = escapeshellarg($address);
+        
         $cmd = "nohup $script_path $address 10 > /dev/null 2>&1 &";
         shell_exec($cmd);
 
