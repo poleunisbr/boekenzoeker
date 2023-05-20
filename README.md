@@ -1,5 +1,6 @@
 # Boekenzoeker Project
 [Ontwerpdocument](https://docs.google.com/document/d/1BnZro1pjn25TCU5-lQrx0jxC6gEPUOJoKiJRmIXeZnM/edit?usp=sharing)
+[Demo video](https://www.youtube.com/watch?v=-ays3l0CT8s)
 
 ## Beschrijving
 Boekenzoeker is een innovatief concept dat is ontwikkeld om bezoekers van een bibliotheek te begeleiden bij het vinden van hun gewenste boeken op een eenvoudige en intuïtieve manier. Het concept maakt gebruik van overzichtelijke panelen die bezoekers kunnen gebruiken om hun gewenste zone aan te geven. Wanneer een bezoeker een bepaalde zone selecteert, zal er een lamp boven die zone gaan branden met een unieke kleur voor deze bezoeker, waardoor het voor hem/haar makkelijker wordt om de juiste boeken te vinden.
